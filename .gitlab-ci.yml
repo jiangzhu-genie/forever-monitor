@@ -1,0 +1,9 @@
+npm_publish:
+  stage: deploy
+  when:
+    - manual
+  tags:
+    - test-platform
+  script:
+    - echo -e "//registry.npmjs.org/:_authToken=${NPM_TOKEN}\nunsafe-perm = true" > .npmrc
+    - npm publish --access public
