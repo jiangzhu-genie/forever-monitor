@@ -1,8 +1,9 @@
 {
-  "name": "forever-monitor",
+  "name": "@genie-solutions/forever-monitor",
   "description": "Core forever process monitor",
   "version": "2.0.0",
   "author": "Charlie Robbins <charlie.robbins@gmail.com>",
+  "access": "public",
   "contributors": [
     {
       "name": "Charlie Robbins",
